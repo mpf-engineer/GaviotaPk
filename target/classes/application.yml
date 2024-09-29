@@ -1,0 +1,7 @@
+spring:
+  data:
+    mysql:
+      uri: jdbc:mysql://localhost:8080/GaviotaBBD
+      username: user
+      password: pwd
+      driver-class-name: com.mysql.cj.jdbc.Driver

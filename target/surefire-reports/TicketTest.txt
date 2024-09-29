@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TicketTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in TicketTest
+testToString(TicketTest)  Time elapsed: 0.03 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ID del Ticket: 1adb3101-d10e-4912-9155-13a9338c1c3e, Código QR: 4d391043-944e-43f1-a782-853e44d63161, Fecha de Entrada: 2024-04-28T11:53:15.061692, Matrícula: 6533CRD]> but was:<[Ticket{idTicket=1adb3101-d10e-4912-9155-13a9338c1c3e, codigo='4d391043-944e-43f1-a782-853e44d63161', fechaEntrada=2024-04-28T11:53:15.061692, fechaPago=null, matricula='6533CRD', pagado=false, activo=true}]>
+	at TicketTest.testToString(TicketTest.java:71)
+

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TarifaServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in TarifaServiceTest
+testaddTarifa(TarifaServiceTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaServiceTest.testaddTarifa(TarifaServiceTest.java:40)
+
+testDeleteTarifa(TarifaServiceTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaServiceTest.testDeleteTarifa(TarifaServiceTest.java:51)
+

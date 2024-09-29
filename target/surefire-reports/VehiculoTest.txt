@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: VehiculoTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! - in VehiculoTest
+testEstaAbonado_AbonoActivo(VehiculoTest)  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.NullPointerException
+	at VehiculoTest.testEstaAbonado_AbonoActivo(VehiculoTest.java:84)
+
+testaddAbono(VehiculoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at VehiculoTest.testaddAbono(VehiculoTest.java:61)
+
+testEstaAbonado_AbonoCaducado(VehiculoTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at VehiculoTest.testEstaAbonado_AbonoCaducado(VehiculoTest.java:75)
+
+testEstaAbonado_SinAbono(VehiculoTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at VehiculoTest.testEstaAbonado_SinAbono(VehiculoTest.java:69)
+

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TarifaTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in TarifaTest
+testCalcularPrecioHora(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testGetCosteAbonoTrimestral(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testGetCosteAbonoAnual(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testgetCosteAbonoMensual(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testCalcularPrecioDia(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testGetCostePorHora(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testGetCostePorDia(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
+testCalcularPrecioHora_ExceptionHoraSalidaAntes(TarifaTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at TarifaTest.setUp(TarifaTest.java:18)
+
